@@ -1,6 +1,15 @@
 
+#
+# This file is part of the yfx operating system source code.
+# Developed (D) 2021/2022 by Wayne Michael Thornton aka WMT.
+# 
+# Distributed under the Public Benefit Zero Copyright License (v.1.0)
+# 
+# You should have received a copy of the Public Benefit Zero Copyright License
+# along with this program. If not, see <https://github.com/wmthornton/PBZC.git>.
+#
 
-
-HELENOS_RELEASE = 0.1.1
-HELENOS_CODENAME = Gusaki
-HELENOS_COPYRIGHT = Copyright (c) 2021-2022 Wayne Michael Thornton (WMT)
+# yfx version information displayed by operating system components
+YFX_RELEASE = 0.1.1
+YFX_CODENAME = Gusaki
+YFX_COPYRIGHT = Copyright (c) 2021-2022 Wayne Michael Thornton (WMT)

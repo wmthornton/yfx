@@ -48,8 +48,8 @@ echo
 echo
 
 PROFILES=`sh ${SOURCE_DIR}/tools/list_profiles.sh`
-RELEASE=`sed -n 's:^HELENOS_RELEASE \?= \?\(.*\)$:\1:p' "${SOURCE_DIR}/version"`
-SRC_ARCHIVE="HelenOS-${RELEASE}-src.tar"
+RELEASE=`sed -n 's:^YFX_RELEASE \?= \?\(.*\)$:\1:p' "${SOURCE_DIR}/version"`
+SRC_ARCHIVE="yfx-${RELEASE}-src.tar"
 
 git -C "${SOURCE_DIR}" archive master -o "${PWD}/${SRC_ARCHIVE}"
 bzip2 -f "${SRC_ARCHIVE}"

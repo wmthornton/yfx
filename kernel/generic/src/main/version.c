@@ -36,10 +36,10 @@
 #include <stdio.h>
 #include <macros.h>
 
-static const char *project = "SPARTAN kernel";
-static const char *copyright = STRING(HELENOS_COPYRIGHT);
-static const char *release = STRING(HELENOS_RELEASE);
-static const char *name = STRING(HELENOS_CODENAME);
+static const char *project = "yfx kernel";
+static const char *copyright = STRING(YFX_COPYRIGHT);
+static const char *release = STRING(YFX_RELEASE);
+static const char *name = STRING(YFX_CODENAME);
 static const char *arch = STRING(KARCH);
 
 #ifdef REVISION

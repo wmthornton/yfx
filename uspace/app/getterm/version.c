@@ -38,9 +38,9 @@
 #include "getterm.h"
 #include "version.h"
 
-static const char *copyright = STRING(HELENOS_COPYRIGHT);
-static const char *release = STRING(HELENOS_RELEASE);
-static const char *name = STRING(HELENOS_CODENAME);
+static const char *copyright = STRING(YFX_COPYRIGHT);
+static const char *release = STRING(YFX_RELEASE);
+static const char *name = STRING(YFX_CODENAME);
 static const char *arch = STRING(UARCH);
 
 #ifdef REVISION

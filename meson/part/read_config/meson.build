@@ -136,9 +136,9 @@ endforeach
 
 # Also read version information.
 _version_variables = [
-	'HELENOS_COPYRIGHT',
-	'HELENOS_CODENAME',
-	'HELENOS_RELEASE',
+	'YFX_COPYRIGHT',
+	'YFX_CODENAME',
+	'YFX_RELEASE',
 ]
 
 foreach _varname : _version_variables

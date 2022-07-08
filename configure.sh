@@ -36,7 +36,7 @@ SOURCE_DIR=`which -- "$0" 2>/dev/null`
 SOURCE_DIR=`dirname -- "$SOURCE_DIR"`
 SOURCE_DIR=`cd $SOURCE_DIR && echo $PWD`
 
-CONFIG_RULES="${SOURCE_DIR}/HelenOS.config"
+CONFIG_RULES="${SOURCE_DIR}/yfx.config"
 CONFIG_DEFAULTS="${SOURCE_DIR}/defaults"
 
 test "$#" -eq 1 && { test "$1" = "-h" || test "$1" = "--help"; }
