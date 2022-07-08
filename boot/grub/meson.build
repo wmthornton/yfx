@@ -86,7 +86,7 @@ grub_cfg = configure_file(
 	output: 'grub.cfg',
 	configuration: {
 		'INSMODS' : '\n'.join(INSMODS),
-		'RELEASE' : HELENOS_RELEASE,
+		'RELEASE' : YFX_RELEASE,
 		'LOADS'   : '\n'.join(LOADS),
 	},
 )
